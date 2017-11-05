@@ -4,14 +4,13 @@ import (
 	"archive/zip"
 	"context"
 	"io"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"io/ioutil"
-
-	"github.com/asticode/go-astitools/io"
 	"github.com/pkg/errors"
+	"github.com/tehsphinx/go-astitools/io"
 )
 
 // DefaultFileMode represents the default file mode

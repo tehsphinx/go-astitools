@@ -3,8 +3,8 @@ package astiexec_test
 import (
 	"testing"
 
-	"github.com/asticode/go-astitools/exec"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/exec"
 )
 
 func TestStdWriter(t *testing.T) {

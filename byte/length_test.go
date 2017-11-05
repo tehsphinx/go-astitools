@@ -3,8 +3,8 @@ package astibyte_test
 import (
 	"testing"
 
-	"github.com/asticode/go-astitools/byte"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/byte"
 )
 
 func TestToLength(t *testing.T) {

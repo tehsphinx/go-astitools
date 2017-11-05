@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/asticode/go-astitools/flag"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/flag"
 )
 
 func TestSubcommand(t *testing.T) {

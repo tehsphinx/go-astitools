@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/asticode/go-astitools/io"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/io"
 	"golang.org/x/net/context"
 )
 

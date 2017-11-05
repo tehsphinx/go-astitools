@@ -3,8 +3,8 @@ package astistring_test
 import (
 	"testing"
 
-	"github.com/asticode/go-astitools/string"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/string"
 )
 
 func TestToLength(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/asticode/go-astitools/context"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/context"
 )
 
 func TestCanceller_Cancel(t *testing.T) {

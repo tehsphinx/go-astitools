@@ -3,8 +3,8 @@ package astidebug_test
 import (
 	"testing"
 
-	"github.com/asticode/go-astitools/debug"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/debug"
 )
 
 func mockStack() []byte {

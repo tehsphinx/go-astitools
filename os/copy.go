@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/asticode/go-astitools/io"
+	"github.com/tehsphinx/go-astitools/io"
 )
 
 // Copy is a cross partitions cancellable copy

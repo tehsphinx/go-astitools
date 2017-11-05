@@ -3,8 +3,8 @@ package astislice_test
 import (
 	"testing"
 
-	"github.com/asticode/go-astitools/slice"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/slice"
 )
 
 func TestInStringSlice(t *testing.T) {

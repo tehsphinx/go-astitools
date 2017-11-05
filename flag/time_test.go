@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asticode/go-astitools/flag"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/flag"
 )
 
 func TestTime(t *testing.T) {

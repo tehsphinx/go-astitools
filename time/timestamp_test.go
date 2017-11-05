@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asticode/go-astitools/time"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/time"
 )
 
 func TestTimestamp(t *testing.T) {

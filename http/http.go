@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/asticode/go-astitools/io"
 	"github.com/pkg/errors"
+	"github.com/tehsphinx/go-astitools/io"
 )
 
 // Download is a cancellable function that downloads a src into a dst using a specific *http.Client

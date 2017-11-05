@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/asticode/go-astitools/regexp"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/regexp"
 )
 
 func TestReplaceAll(t *testing.T) {

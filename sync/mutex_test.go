@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asticode/go-astitools/sync"
 	"github.com/stretchr/testify/assert"
+	"github.com/tehsphinx/go-astitools/sync"
 )
 
 func TestRWMutex_IsDeadlocked(t *testing.T) {
@@ -15,5 +15,5 @@ func TestRWMutex_IsDeadlocked(t *testing.T) {
 	m.Lock()
 	d, c := m.IsDeadlocked(time.Millisecond)
 	assert.True(t, d)
-	assert.Contains(t, c, "github.com/asticode/go-astitools/sync/mutex_test.go:15")
+	assert.Contains(t, c, "github.com/tehsphinx/go-astitools/sync/mutex_test.go:15")
 }
